@@ -1,0 +1,40 @@
+# User-specific files
+*.suo
+*.user
+.vs/**
+
+# TFS-related files
+*.vssscc
+*.vspscc
+
+# Nuget-related files
+packages
+
+# Build outputs
+**/[Bb]in/*
+**/[Cc]sx/*
+**/[Ee]cf/*
+**/[Oo]bj/*
+**/[Rr]cf/*
+**/[Pp]ublish/*
+
+# Exceptions
+!.nuget/NuGet.exe
+!scripts/**/_deploy_
+!**/*.sh
+!src/Summit.*/install.cmd
+!src/Summit.*/NDP461-KB3102438-Web.exe
+!scripts/**/bin/*
+
+# Database
+*.dbmdl
+*.jfm
+
+# Logs
+src/Summit.Forecaster.DB/Import Schema Logs/*
+**/*.jfm
+
+# Node modules
+node_modules/
+
+*.cache
